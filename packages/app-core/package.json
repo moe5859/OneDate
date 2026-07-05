@@ -1,0 +1,30 @@
+{
+  "name": "@onedate/app-core",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@onedate/config": "0.1.0",
+    "@onedate/supabase": "0.1.0",
+    "@onedate/theme": "0.1.0",
+    "@onedate/types": "0.1.0",
+    "@onedate/ui": "0.1.0",
+    "@onedate/utils": "0.1.0",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@tanstack/react-query": "^5.59.15",
+    "expo-router": "^4.0.9",
+    "react": "18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-native": "0.76.3",
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit",
+    "test": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  }
+}

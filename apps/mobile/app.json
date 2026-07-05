@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "OneDate",
+    "slug": "onedate-mobile",
+    "scheme": "onedate",
+    "userInterfaceStyle": "automatic",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "plugins": ["expo-router"],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

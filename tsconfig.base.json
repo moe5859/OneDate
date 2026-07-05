@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@onedate/app-core": ["packages/app-core/src/index.ts"],
+      "@onedate/config": ["packages/config/index.ts"],
+      "@onedate/supabase": ["packages/supabase/src/index.ts"],
+      "@onedate/theme": ["packages/theme/src/index.ts"],
+      "@onedate/types": ["packages/types/src/index.ts"],
+      "@onedate/ui": ["packages/ui/src/index.ts"],
+      "@onedate/utils": ["packages/utils/src/index.ts"]
+    }
+  }
+}
